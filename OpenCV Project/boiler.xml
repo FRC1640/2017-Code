@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vision>
+  <filter>
+    <name>GetImage</name>
+    <numInputs>0</numInputs>
+  </filter>
+  <filter>
+    <name>HSL</name>
+    <numInputs>6</numInputs>
+    <input sliderName="minHue">0</input>
+    <input sliderName="maxHue">255</input>
+    <input sliderName="minSat">0</input>
+    <input sliderName="maxSat">255</input>
+    <input sliderName="minLum">0</input>
+    <input sliderName="maxLum">255</input>
+  </filter>
+  <filter>
+    <name>Close</name>
+    <numInputs>1</numInputs>
+    <input sliderName="radius">2</input>
+  </filter>
+  <filter>
+    <name>FilterContours</name>
+    <numInputs>8</numInputs>
+    <input sliderName="minArea">100</input>
+    <input sliderName="maxArea">50000</input>
+    <input sliderName="minWidth">0</input>
+    <input sliderName="maxWidth">50000</input>
+    <input sliderName="minHeight">0</input>
+    <input sliderName="maxHeight">50000</input>
+    <input sliderName="minPerim">20</input>
+    <input sliderName="maxPerim">50000</input>
+  </filter>
+</vision>

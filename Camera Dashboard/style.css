@@ -1,0 +1,66 @@
+.cameraImage{
+    height:640px;
+    width:480px;
+    position:left;
+    margin:auto;
+    top:0; right:0; bottom:0; left:0;
+}
+.cameraContainer{
+  position:relative;
+}
+#crosshairCenter{
+	position:absolute;
+	margin:auto;
+	top:0; right:0; bottom:0; left:0;
+	background-color:red;
+	width:4px;
+}
+#crosshairLeft{
+	position:absolute;
+	margin-left:40%;
+	top:0; right:0; bottom:0; left:0;
+	background-color:red;
+	width:4px;
+}
+#crosshairRight{
+	position:absolute;
+	margin-left:60%;
+	top:0; right:0; bottom:0; left:0;
+	background-color:red;
+	width:4px;
+}
+
+.sidebar {
+	float:left;
+	position:absolute;
+	width:25%;
+	height:100%;
+	background-color:black;
+  color:grey;
+}
+
+sidebar ul {
+	text-align:center;
+}
+
+.content{
+	float:right;
+	position:relative;
+	width:75%;
+	height:75%;
+	border:black 1px;
+}
+
+h4 {
+  font-size:16px;
+}
+
+#operator li, #driver li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#pressed li{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
